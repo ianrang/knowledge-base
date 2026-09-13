@@ -121,6 +121,7 @@ target lifecycle은 위 1–7과 materializer의 index·overview derived-only �
 - 파일명: lowercase kebab-case
 - 디렉토리: 동일
 - 동음이의 시 disambiguation suffix
+- 폴더 구조·파일 배치·네이밍 상세는 `.claude/rules/structure-rules.md` 가 소유한다. Claude Code 는 자동 로드하고 다른 도구는 열어서 읽는다. 콘텐츠 생성·수정·이동 시 그 규칙을 따른다
 
 ## LLM 호출 규약
 
@@ -134,7 +135,7 @@ target lifecycle은 위 1–7과 materializer의 index·overview derived-only �
 - wiki/ commit author = `swan-bot` (자동 — `git config` + `scripts/commit_wiki.sh`)
 - wiki/ commit subject prefix = `[wiki-bot]`
 - cs/, development/, coding-test/, lang/, tools/ commit author = 사용자 (`swan`)
-- Conventional commits, 영어 (project CLAUDE.md 따름)
+- cs/, development/ 커밋 메시지: Conventional Commits 접두(`docs:`, `java:`, `feat(pipeline):`)와 한국어 본문 — git log 의 실제 패턴
 
 ## Quality 보장
 
@@ -143,6 +144,18 @@ target lifecycle은 위 1–7과 materializer의 index·overview derived-only �
 - taxonomy alias는 canonical 대체값을 MEDIUM으로 안내하고, taxonomy 미등재 tag·entity와 잘못된 stable ID는 거부한다. 의미상 paraphrase처럼 자동 판정할 수 없는 변형은 soft-review 대상으로 둔다.
 - 표시되지 않은 페이지 간 명제 모순은 거부한다. Claims evidence verdict와 Open Questions로 명시한 contradiction·insufficient 상태는 보존 가능한 review 상태다.
 - 모든 op 후 vault 가 이전보다 더 정합된 상태여야 함
+
+## Repository Overview
+
+CS 지식과 프로그래밍 학습 내용을 정리하는 개인 학습 저장소. 모든 문서는 한국어로 작성. 빌드 시스템 없음 — Java 파일은 `javac`/`java`로 개별 컴파일.
+
+## Compiling & Running Java
+
+```bash
+cd coding-test/stage1/practice
+javac HelloPrint.java
+java HelloPrint
+```
 
 ## 참고
 
