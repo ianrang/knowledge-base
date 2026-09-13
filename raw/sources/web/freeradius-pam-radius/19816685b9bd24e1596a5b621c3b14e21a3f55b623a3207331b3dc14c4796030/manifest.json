@@ -1,0 +1,15 @@
+{
+  "artifact_digest": "sha256:19816685b9bd24e1596a5b621c3b14e21a3f55b623a3207331b3dc14c4796030",
+  "created_at": "2026-09-13T08:50:52Z",
+  "generator": {
+    "name": "cs-study-capture",
+    "version": "1.0"
+  },
+  "media_type": "text/markdown",
+  "payload": "payload.md",
+  "primary_source": "https://github.com/FreeRADIUS/pam_radius",
+  "schema_version": "1.0",
+  "size": 1090,
+  "source_id": "freeradius-pam-radius",
+  "source_type": "web"
+}
