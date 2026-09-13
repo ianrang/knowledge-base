@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+@AGENTS.md
+
+위 가져오기로 `AGENTS.md`(LLM Wiki Operating Schema)를 두 런타임이 같은 본문으로 읽는다(글로벌 §규칙 계층 ③ — 규칙 본문은 한 곳). 아래는 이 파일만의 항목이다.
+
 ## Repository Overview
 
 CS 지식과 프로그래밍 학습 내용을 정리하는 개인 학습 저장소. 모든 문서는 한국어로 작성. 빌드 시스템 없음 — Java 파일은 `javac`/`java`로 개별 컴파일.
