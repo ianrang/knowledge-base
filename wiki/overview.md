@@ -6,9 +6,9 @@
 |---|---|---|---|
 | [[wiki/index#ai-engineering|ai-engineering]] | AI Engineering | active | 1 |
 | [[wiki/index#algorithms|algorithms]] | Algorithms | active | 0 |
-| [[wiki/index#cryptography|cryptography]] | Cryptography | active | 0 |
+| [[wiki/index#cryptography|cryptography]] | Cryptography | active | 1 |
 | [[wiki/index#developer-tools|developer-tools]] | Developer Tools | active | 0 |
-| [[wiki/index#information-security|information-security]] | Information Security | active | 74 |
+| [[wiki/index#information-security|information-security]] | Information Security | active | 79 |
 | [[wiki/index#llm-agents|llm-agents]] | LLM Agents | inactive | 0 |
 | [[wiki/index#llm-evaluation|llm-evaluation]] | LLM Evaluation | inactive | 0 |
 | [[wiki/index#llm-foundations|llm-foundations]] | LLM Foundations | inactive | 0 |
