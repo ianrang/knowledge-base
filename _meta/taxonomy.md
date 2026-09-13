@@ -105,8 +105,10 @@
 - `architecture`
 - `certification`
 - `cleanup`
+- `data-classification`
 - `documentation-architecture`
 - `draft`
+- `endpoint-security`
 - `exam-analysis`
 - `exam-criteria`
 - `exam-pattern`
@@ -117,6 +119,9 @@
 - `frequency`
 - `hands-on`
 - `hands-on-lab`
+- `high-availability`
+- `identity-and-access-management` (alias: `iam`)
+- `identity-provider` (alias: `idp`)
 - `ids`
 - `information-security`
 - `integrated-study`
@@ -130,6 +135,7 @@
 - `log-triage`
 - `mapping`
 - `migration-plan`
+- `multi-factor-authentication` (alias: `mfa`)
 - `network-protocol`
 - `network-security`
 - `pattern`
@@ -145,8 +151,10 @@
 - `roadmap`
 - `scaffold`
 - `service-config`
+- `session-management`
 - `session-pattern`
 - `significance`
+- `single-sign-on` (alias: `sso`)
 - `source-index`
 - `study`
 - `study-cheatsheet`
@@ -195,6 +203,13 @@
 - `chinchilla` (Hoffmann et al. 2022)
 - `instructgpt` (Ouyang et al. 2022)
 - `lora-paper` (Hu et al. 2021)
+
+## Tag 목록 — 암호·키 관리 주제
+
+암호·키 관리 주제의 canonical tag다. `load_taxonomy` 는 모든 `## Tag 목록` 구역을 하나의 집합으로 합쳐 읽으므로 구역은 검증 제약이 아니라 사람이 찾기 위한 구분이다. 따라서 이 태그도 domain 과 무관하게 어느 페이지에서나 쓸 수 있다. 신규 tag 는 이 목록에 먼저 등록하고 사람 review 를 거친다.
+
+- `key-management`
+- `post-quantum-cryptography` (alias: `pqc`)
 
 ## CS 도메인 별 vocabulary (보안 / 암호 / 네트워크 등)
 

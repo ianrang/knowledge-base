@@ -76,11 +76,18 @@ def test_content_addressed_artifact_markdown_is_not_a_legacy_raw_page():
 @_register
 def test_flat_curated_raw_markdown_remains_in_legacy_lint_scope():
     pages = sorted((REPO_ROOT / "raw" / "sources" / "web").rglob("*.md"))
+    # raw/sources/web holds both flat curated pages and content-addressed bundles.
+    # Select by path shape so the assertion stays about the flat leaf either way.
+    flat = [
+        page
+        for page in pages
+        if len(page.relative_to(REPO_ROOT).parts) == 5
+    ]
 
-    assert pages
-    assert not lint.is_artifact_bundle_markdown(pages[0])
-    markdown_paths, findings = lint._markdown_inventory([pages[0]])
-    assert markdown_paths == [pages[0]]
+    assert flat
+    assert not lint.is_artifact_bundle_markdown(flat[0])
+    markdown_paths, findings = lint._markdown_inventory([flat[0]])
+    assert markdown_paths == [flat[0]]
     assert findings == []
 
 

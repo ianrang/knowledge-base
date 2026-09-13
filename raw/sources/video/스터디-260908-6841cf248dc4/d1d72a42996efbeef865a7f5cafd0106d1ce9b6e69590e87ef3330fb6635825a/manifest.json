@@ -1,0 +1,21 @@
+{
+  "artifact_digest": "sha256:d1d72a42996efbeef865a7f5cafd0106d1ce9b6e69590e87ef3330fb6635825a",
+  "content": {
+    "digest": "sha256:c007fceba0f057ad6a5dc39fbaa0a81527cdf1fb5ad92266e9d311fa7e8671de",
+    "media_type": "text/markdown",
+    "path": "content.md",
+    "size": 285682
+  },
+  "created_at": "2026-09-12T13:01:04Z",
+  "generator": {
+    "name": "cs-study-capture",
+    "version": "1.0"
+  },
+  "media_type": "application/json",
+  "payload": "payload.json",
+  "primary_source": "스터디 260908.m4a",
+  "schema_version": "1.0",
+  "size": 304768,
+  "source_id": "스터디-260908-6841cf248dc4",
+  "source_type": "video"
+}

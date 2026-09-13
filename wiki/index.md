@@ -12,7 +12,7 @@
 
 ## cryptography
 
-(empty)
+- [[wiki/domains/cryptography/key-management-and-post-quantum-cryptography]] — 키 관리와 양자 내성 암호 — 비밀 값을 한곳에서 바꿔 가며 발급하는 키 관리 방식과 그 대가, 그리고 양자 암호와 양자 내성 암호의 구분. 각각이 맞는 자리와 교체 비용의 차이를 다룬다. (concept)
 
 ## developer-tools
 
@@ -23,6 +23,10 @@
 - [[wiki/domains/information-security/drafts/study/past-exam-recurring-topic-priorities]] — 정보보안기사 실기 — 시기별 반복 출제 주제와 보완 우선순위 — 2013–2020과 2021–2026의 복원 기출을 서로 다른 모수로 나누어 회차별 반복 주제와 현재 P1·P2·P3 정리 범위를 집계한 우선순위표. (benchmark)
 - [[wiki/domains/information-security/drafts/study/past-exam-study-coverage]] — 정보보안기사 실기 — 학습 단계별 기출 풀이 커버리지 — drafts/study의 P1·P2·P3 명시 내용만으로 각 실기 기출 문항을 직접 풀 수 있는 범위를 유형별·회차별로 누적 집계한 기준표. (benchmark)
 - [[wiki/domains/information-security/drafts/study/past-exam-uncovered-recurring-topics]] — 정보보안기사 실기 2013–2022 — P1·P2·P3 미포함 반복 항목 분리 원장 — 2013년 1회부터 2022년 4회까지의 복원 기출을 P1·P2·P3 명시 내용과 문항별로 대조하여, 개념 자체의 미기재와 문제 고유 조건·세부 답안 요구를 분리한 반복 항목 원장. (benchmark)
+- [[wiki/domains/information-security/endpoint-and-document-security]] — 단말 접근 통제와 문서 등급 관리 — 사내 단말에서 시작하는 접근 경로를 어떻게 통제하는지, 누가 언제 붙었는지를 어떻게 확인하는지, 단말 밖으로 나가는 자료를 어디까지 막을 수 있는지, 그리고 문서에 등급을 붙여 추적하는 방식을 다룬다. 강의자가 자기 회사에서 운영 중이라고 밝힌 구성과 그 한계에 대한 비판을 함께 정리한다. (concept)
+- [[wiki/domains/information-security/keycloak-high-availability-deployment]] — Keycloak 고가용성 배포와 운영 — 인증 서버의 단일 장애점을 없애기 위한 Keycloak 이중화 구성과 그 운영 방식. 리버스 프록시와 인증서, 로그인 상태 공유 계층, 데이터베이스 복제 선택, 두 곳에 나눠 둘 때의 연결, 인증 서버 제품 선택, 컨테이너 배포와 백업, 로그 반출을 다룬다. (concept)
+- [[wiki/domains/information-security/keycloak-realm-and-identity-federation]] — realm 과 외부 인증 연동 — 통합 인증의 적용 경계인 realm 과, 그 안에 사용자를 채우고 권한을 나누는 방식. 비밀번호를 가져오지 않는 이유, 외부 공급자 위임의 대가, 붙일 제품을 고르는 기준, 무선과 서버 콘솔처럼 웹이 아닌 경로의 중계 구조를 다룬다. (concept)
+- [[wiki/domains/information-security/keycloak-session-and-authentication-policy]] — 세션 정책과 인증 수단 — 로그인 앞뒤를 다룬다. 인증 요소 세 가지와 패스키가 두 단계가 되는 이유, 그 수단을 받는 화면 구성, 세션 최대 수명과 유휴 만료의 구분, 통합 로그아웃과 제로 트러스트의 경계를 정리한다. (concept)
 - [[wiki/domains/information-security/queries/network-path-functions-and-placement]] — 라우터·NAT·방화벽·로드밸런서·IDS·IPS의 역할과 네트워크 배치 — 라우팅·주소 변환·접근통제·부하분산·침입 탐지·차단을 서로 다른 논리 기능으로 구분하고, 통합·분리 장비 구성에서 패킷이 처리되는 흐름을 설명한다. (concept)
 - [[wiki/domains/information-security/datasets/info-sec-engineer-practical-past-exams/06-verification/098-199-prompt-clarity-review-2026-07-18]] — 정보보안기사 실기 복원 98~199번 문제·답안 대응성 검토 — R07-Q03~R13-Q09, 즉 변환 순서 98~199번을 직접 읽어 질문·정답 항목의 대응, 복원 한계, 기술적 판정 연결을 확인한 기록. KCA 공식 시험지 문구를 주장하지 않는다. (dataset)
 - [[wiki/domains/information-security/datasets/info-sec-engineer-practical-past-exams/06-verification/101-513-content-review-2026-07-17]] — 정보보안기사 실기 복원 101~513번 기술 정확성 전수 검증 — P1-T1의 후반 범위(R07-Q06~R31-Q18) 413문항을 원본 회차 MD 기준으로 기술 정확성, 독립 풀이성, 시대·제품 경계, 복원 한계를 전수 판정한 감사 기록. KCA 공식 원문을 주장하지 않는다. (dataset)
@@ -94,6 +98,7 @@
 - [[wiki/domains/information-security/drafts/study/info-sec-engineer-network-security-study]] — 정보보안기사 실기 2장 — 네트워크 보안 — 정보보안기사 실기의 프로토콜·패킷·네트워크 공격·보안장비·설정·로그 분석을 우선순위와 답안 형태로 통합한 학습 문서. (method)
 - [[wiki/domains/information-security/drafts/study/info-sec-engineer-security-general-study]] — 정보보안기사 실기 4장 — 정보보안 일반 — 정보보안기사 실기의 암호·키 분배·해시·인증·접근통제·전자서명·PKI를 우선순위와 답안 형태로 통합한 학습 문서. (method)
 - [[wiki/domains/information-security/drafts/study/info-sec-engineer-system-security-study]] — 정보보안기사 실기 1장 — 시스템 보안 — 정보보안기사 실기의 운영체제 인증·권한·로그·보안설정·공격·방어를 우선순위와 답안 형태로 통합한 학습 문서. (method)
+- [[wiki/domains/information-security/keycloak-identity-infrastructure-study-2026-09-08]] — Keycloak 기반 인증 인프라 스터디 (2026-09-08) — Keycloak 을 축으로 배포 구조, realm 과 외부 인증 연동, 무선과 서버 접근 인증, 통합 로그인과 통합 로그아웃, 세션 정책과 인증 수단, 제로 트러스트와의 경계, 키 관리와 양자 내성 암호, 단말과 문서 보안을 다룬 2시간 46분 사내 스터디 녹음의 출처 요약. (source-summary)
 
 ## llm-agents
 

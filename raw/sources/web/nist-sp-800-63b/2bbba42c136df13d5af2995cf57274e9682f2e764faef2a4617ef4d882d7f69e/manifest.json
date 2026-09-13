@@ -1,0 +1,15 @@
+{
+  "artifact_digest": "sha256:2bbba42c136df13d5af2995cf57274e9682f2e764faef2a4617ef4d882d7f69e",
+  "created_at": "2026-09-13T08:50:51Z",
+  "generator": {
+    "name": "cs-study-capture",
+    "version": "1.0"
+  },
+  "media_type": "text/markdown",
+  "payload": "payload.md",
+  "primary_source": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+  "schema_version": "1.0",
+  "size": 1268,
+  "source_id": "nist-sp-800-63b",
+  "source_type": "web"
+}
